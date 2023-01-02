@@ -4,16 +4,24 @@ const componentsStyle = {
   container,
   brand: {
     color: "#FFFFFF",
+    display: "flex",
+    // flex: "1",
+    flexWrap: "wrap",
     textAlign: "left"
   },
+  hero_item: {
+    flex: "50%",
+  },
   title: {
-    fontSize: "3.2rem",
+    ...container,
+    fontSize: "4.2rem",
     fontWeight: "600",
     display: "inline-block",
     position: "relative"
   },
   subtitle: {
-    fontSize: "1.313rem",
+    ...container,
+    fontSize: "1.613rem",
     maxWidth: "510px",
     margin: "10px 0 0"
   },

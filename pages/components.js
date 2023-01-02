@@ -56,10 +56,14 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Design & technology.</h1>
-                <h3 className={classes.subtitle}>
-                  Reckon<sup className={classes.sup}>KE</sup> is a Design and Mobile Technology Studio and Brand Strategy Consulting Firm. Maximizing utility with the balance of Strategy + Aesthetics.
-                </h3>
+                <div className={classes.hero_item}>
+                  <h1 className={classes.title}>Design & technology.</h1>
+                </div>
+                <div className={classes.hero_item}>
+                  <h3 className={classes.subtitle}>
+                    Reckon<sup className={classes.sup}>KE</sup> is a Design and Mobile Technology Studio and Brand Strategy Consulting Firm. Maximizing utility with the balance of Strategy + Aesthetics.
+                  </h3>
+                </div>
               </div>
             </GridItem>
           </GridContainer>

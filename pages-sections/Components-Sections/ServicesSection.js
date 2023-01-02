@@ -28,7 +28,7 @@ function ServicesSection() {
         </header>
         <GridContainer>
           {tileData.map(data => (
-            <GridItem xs={12} sm={6} md={4} lg={4}>
+            <GridItem className={classes.mainRaised} spacing={2} xs={12} sm={6} md={4} lg={4}>
               <div className={classes.grid_item}>
                 <a href="#" className={classes.grid_title}>
                   <span className={classes.grid_tile_icon}>
@@ -40,78 +40,6 @@ function ServicesSection() {
               </div>
             </GridItem>
           ))}
-          {/* <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>
-                <span className={classes.grid_tile_icon}>
-                  <img src="https://web-cdn-prod.levinriegner.com/img/services/design.svg
-" alt="tile-icon" className={classes.tile_img} />
-                </span>
-                <span className={classes.grid_tile_title}>UX Design</span>
-                <span className={classes.grid_tile_desc}>Visualizing the most powerful representation of your brand through compelling creative.</span>
-              </a>
-            </div>
-          </GridItem> */}
         </GridContainer>
       </div>
     </div>
@@ -119,29 +47,3 @@ function ServicesSection() {
 }
 
 export default ServicesSection
-
-{/* <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>Services</a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>Services</a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>Services</a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>Services</a>
-            </div>
-          </GridItem>
-          <GridItem xs={12} sm={6} md={4} lg={4}>
-            <div className={classes.grid_item}>
-              <a href="#" className={classes.grid_title}>Services</a>
-            </div>
-          </GridItem> */}

@@ -66,6 +66,8 @@ import headerLinksStyle from "/styles/jss/nextjs-material-kit/components/headerL
       marginBottom: "1rem"
     },
     tile_img: {
+      height: "4.6rem",
+      width: "4.6rem",
       objectFit: "contain",
     },
     grid_tile_title: {
